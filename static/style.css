@@ -1,7 +1,13 @@
-#sketch
+#defaultCanvas0
 {
-		width:100vw;
-		height:100%;
+    overflow:hidden;
+}
 
-		overflow:hidden;
+
+/** The main tag contains the canvas */
+main, body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
