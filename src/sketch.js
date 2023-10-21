@@ -1,4 +1,3 @@
-
 // Starts at the begining
 function setup()
 {
@@ -51,7 +50,7 @@ function draw()
 	endShape();
 
 
-    /// 3D
+    // 3D
     
     noFill();
     beginShape();
@@ -59,10 +58,12 @@ function draw()
     vertex(1010, 520);
 
     vertex(1010, 320);
-    vertex(1280, 300);
+    vertex(1240, 305);
 
-    vertex(1160, 560);
-    vertex(1160, 770);
+    vertex(1465, 510);
+
+    vertex(1215, 530);
+    vertex(1215, 740);
 
     // Bottom
     vertex(1010, 520);
