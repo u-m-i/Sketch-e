@@ -49,4 +49,23 @@ function draw()
 	vertex(300, 370);
 	vertex(325, 340);
 	endShape();
+
+
+    /// 3D
+    
+    noFill();
+    beginShape();
+    
+    vertex(1010, 520);
+
+    vertex(1010, 320);
+    vertex(1280, 300);
+
+    vertex(1160, 560);
+    vertex(1160, 770);
+
+    // Bottom
+    vertex(1010, 520);
+
+    endShape();
 }
